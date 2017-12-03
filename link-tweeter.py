@@ -1,7 +1,7 @@
 #! /usr/local/bin/python3
 
 '''
-title: 		link-scrape-tweet
+title: 		link-tweeter
 
 author: 	infinite chill / 2017
 
@@ -9,10 +9,10 @@ about:
 			an automated bot tool that scrapes a google drive spreadsheet, and periodically makes a tweet upon 
 			selected interval. currently hardcoded to handle a video link spreadsheet but could easily be adjusted.
 
-you must recieve credentials from twitter to psot tweets
+you must recieve credentials from twitter to post tweets
 https://apps.twitter.com/
 
-you must recieve credentials in the form of a client-secret.json file form goolge to scrape a gdrive spreadsheet
+you must recieve credentials in the form of a client-secret.json file from goolge to scrape a gdrive spreadsheet
 https://console.developers.google.com/apis/credentials?pli=1
 
 '''
