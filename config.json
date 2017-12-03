@@ -1,0 +1,29 @@
+{
+   "_comment": "all values must be filled in below...",
+    "email_settings":{
+        "host":"",
+        "email":"",
+        "password":"",
+        "port":"",
+        "send-to-email":""
+    },
+    "google_spreadsheet_settings":{
+        "spreadsheet-name":"",
+        "google-drive-mode":""
+    }, 
+    "twitter_settings":{
+        "consumer-key":"",
+        "consumer-secret":"",
+        "access-key":"",
+        "access-secret":""
+    },
+    "other_default_settings":{
+        "csv-file":"",
+        "tweet-head":"",
+        "tweet-tail":"",
+        "log-dir":"",
+        "log-file":"",
+        "send-notif-on-success":"",
+        "time-interval":""
+    }   
+}
