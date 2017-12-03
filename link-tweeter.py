@@ -368,7 +368,7 @@ def main():
 			message="link-tweeter tweeted: "+ last_tweet
 			if (mySettings.SEND_NOTIF_ON_SUCCESS):
 				send_email(subject,message,mySettings.SEND_TO_EMAIL,mySettings.EMAIL_ADDRESS,mySettings.EMAIL_PASSWORD,mySettings.EMAIL_SERVER,mySettings.EMAIL_PORT)
-				print(get_time_stamp(),"sent email to:\tå",mySettings.SEND_TO_EMAIL,subject,message, file=logfile, flush=True)
+				print(get_time_stamp(),"sent email to:\t",mySettings.SEND_TO_EMAIL,subject,message, file=logfile, flush=True)
 				#print(get_time_stamp(),"sent email to:\t",mySettings.SEND_TO_EMAIL,subject,message, flush=True)
 			tweet_count+=1
 	
